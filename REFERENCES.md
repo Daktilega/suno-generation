@@ -1,17 +1,15 @@
-# Evidencia y límites
+# Fuentes y límites de la revisión v2.1
 
-Revisión del 13 de septiembre de 2026 basada en el corpus textual local de My AI Songs y en el feedback del usuario sobre sus generaciones. No se ha realizado escucha ni generación de audio en esta revisión. Los tempos de diseño, jerarquías instrumentales reforzadas y exclusiones del catálogo son propuestas; no mediciones de los temas publicados.
+Fuente primaria de trabajo: copia local de `song-corpus.csv`, suministrada previamente por el usuario e incluida en la skill personal. Se conserva sin cambios; no se redistribuyen aquí el CSV ni las letras. 161 entradas, 160 prompts, 103 de origen SUNO y 58 de origen TUNEE. Última fecha de publicación en esta copia: 28 de julio de 2026. Los prompts TUNEE son reformulaciones de plataforma. [Inventario y enlaces por canción](AUDIT.md).
 
-| Referencia | Evidencia del prompt histórico | Uso |
-| --- | --- | --- |
-| [BRC — Neon Saints of the Wreckage](https://www.youtube.com/watch?v=YMOoXQoh2BA) | Metal de groove a unos 140 BPM, afinación grave, chugs sincopados, disonancia, textura industrial, canto gritado agudo femenino | 07: rama metalera |
-| [EFS — Rats in a Paper Crown](https://www.youtube.com/watch?v=_8iibrBpS2k) | Folk-punk/garage 190–210 BPM, acústica ocasional, washboard/palmas, trompeta y respuestas grupales discretas | 08: elevar acústica y percusión a primer plano es una modificación deliberada |
-| [EFS — Vending Machine Cosmos](https://www.youtube.com/watch?v=mdV8ycBYpAY) | Garage 190–210 BPM, mallets doblando melodía, voz narrativa de frases largas, cierre enlazado | 03-V y cruce con 08 por la percepción folk del usuario |
-| [ANK — Ring Around the Quiet](https://www.youtube.com/watch?v=jq_Y7LJM__Q) | Melodía circular, balanceo de nana, bajo repetitivo, guitarras que engrosan sin volverse agresivas | 09: separar nana lenta de toy punk rápido |
-| EFS / NOlivAI — Microwave Drama | Guitarras entrelazadas, batería algo swung, mallets, voz irónica y contrastes | 05: retirar los mallets del perfil base es una propuesta para diferenciarlo de 03 |
-| EFS — I Wrote It On My Arm; Wait Hold Wrong Start; Off-Kilter Lock | Fragmentación narrativa, entradas falsas, cambios y fraseo irregular sobre distintas bases garage | 06: mayor ruptura de arreglo propuesta, no género exclusivo demostrado |
-| BRC — Open Mic Autopsy | Grunge-pop medio, bajo elástico, batería que respira, melodía fuzzy frágil | 02 |
+Comparación: catálogo v1 publicado en Daktilega/suno-generation, commit `8aa42f88524e4e099f8f27602fc93d80613cc8a2`, consultado el 13 de septiembre de 2026. Esta revisión incorpora después las correcciones del usuario sobre folk, electrónica y mallets. Los IDs de auditoría no implican que todos sigan activos.
 
-La revisión encontró varios sonidos dentro de BRC: no se etiqueta todo el grupo como metal. Tampoco se usa el texto del prompt para invalidar el sonido que el usuario oye en una generación: intención escrita y resultado pueden diferir.
+Evidencia: instrumentación, indicaciones vocales, tempo indicado y organización descritos por cada prompt. Inferencia editorial: familias, cruces, jerarquía de rasgos y decisión de separar perfiles. Propuesta nueva: los Style de STYLES.md y los desarrollos que se marcan como exploraciones. Ninguna de estas capas equivale a escucha, transcripción musical, medición de BPM o control garantizado de Suno v6.
 
-Los perfiles 01–06 partían de las categorías definidas por el usuario en esta conversación. Esta versión conserva esos IDs, hace más explícitas sus diferencias y añade 07–09. No se ha publicado el CSV completo ni letras históricas: estas referencias resumidas bastan para consultar el catálogo desde chats.
+Una referencia singular puede justificar una opción de generación sin demostrar una familia frecuente. La prioridad de la escucha del usuario se mantiene cuando el audio difiere del texto. No se ha verificado la integridad actual del canal ni posibles canciones posteriores a la copia.
+
+SHA-256 de la copia analizada: `fb2641d51767fc1ad6b17ad9736a58d4adfc12f715b081be93ca35410e040555`.
+
+## Days N’ Daze y dirección actual
+
+Ver [FOLK-PUNK.md](FOLK-PUNK.md) para entrevistas primarias, referencias de tempo con sus limitaciones y la traducción a instrucciones de composición. El objetivo de 240 BPM es una propuesta del taller, no una medición del grupo. El feedback del usuario tiene prioridad sobre el corpus. La próxima prueba de audio está pendiente.

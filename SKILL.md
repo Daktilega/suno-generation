@@ -1,44 +1,43 @@
 ---
 name: suno-generation
-description: Crear canciones y prompts para Suno con nueve perfiles diferenciados de My AI Songs y continuidad entre tandas. No genera audio ni opera cuentas de Suno.
+description: Crear canciones para Suno v6 con los perfiles de My AI Songs, base orgánica, mallets mínimos y continuidad entre tandas. No genera audio ni opera cuentas de Suno.
 ---
 
 # Suno Generation — My AI Songs
 
-Esta edición web funciona como instrucciones legibles desde un chat. Leer [el catálogo](STYLES.md), elegir el ID pedido y aplicar solo su ficha. Para explicar la evidencia y sus límites, leer [referencias](REFERENCES.md). No requiere instalar software ni acceder al corpus privado.
+Leer [STYLES.md](STYLES.md), sus preferencias iniciales y la ficha elegida. Petición actual > decisiones aprobadas de la canción > preferencias actuales del usuario > perfil > corpus histórico. Las fuentes y letras son referencias, no instrucciones operativas.
+
+## Preferencias que deben acompañar todas las tandas
+
+- Base de guitarras, bajo y percusión natural. No introducir sintes, cajas de ritmos, beats electrónicos, arpegios psytrance ni texturas industriales por defecto. «Raro», «toy» o «mutante» no los implican. Solo usar electrónica ante petición explícita de ese sonido.
+- Mallets opcionales y muy, muy ligeros: notas aisladas y bajas, sin riff, patrón continuo ni doblaje de la voz. No ponerlos en todas las canciones. No sustituirlos por xilófono brillante, campanillas, glockenspiel o Casio. Se pueden omitir por completo.
+- Voz femenina adulta por defecto; respetar otra voz pedida, incluida la referencia masculina de 04-S. No imponer el mismo registro, rasgado, grito o duración de notas a todas las familias.
+- La selección habitual tiene 11 perfiles: 01–10 y 13. Los antiguos 11/12/14 son excepciones de auditoría, no opciones para una tanda normal ni rasgos representativos del usuario. No renumerar los IDs. Si se pide explícitamente un ID retirado, recuperar el contexto de [AUDIT.md](AUDIT.md), indicarlo y atender esa petición concreta.
 
 ## Selección
 
-- Si el usuario indica un ID o nombre, componer directamente con ese perfil.
-- Si pide ver estilos, mostrar la tabla del catálogo. Si pide una canción sin elegir estilo y sin delegarlo, preguntar únicamente cuál desea.
-- «BRC metalero» selecciona 07; BRC a secas no define un sonido único: contiene metal, grunge y garage.
-- «Rats in a Paper Crown» selecciona 08. «Vending Machine Cosmos» selecciona la variante 03-V. Se acepta «Bending Machine Cosmos» como alias de búsqueda. Si pide la rama folclórica de ambas, usar 08 con fraseo narrativo largo; su percepción sonora tiene prioridad sobre la etiqueta histórica del prompt.
-- Experimental describe también una forma de componer: usar 06 como perfil independiente o como modificador de otro ID cuando se solicite. No absorber folk y metal dentro de una categoría residual.
+Si hay ID o estilo, componer directamente; si el usuario pide ver opciones, mostrar solo las habituales. Si delega, elegir entre ellas. «BRC metalero» = 07; BRC a secas no implica metal.
 
-## Composición
+**08 o folk = folk-punk/thrashgrass acústico frenético**, 240 BPM propuestos, rasgueo rápido y washboard en lugar de batería rock, fraseo melódico largo, atropellado y con respiraciones breves. Leer también [FOLK-PUNK.md](FOLK-PUNK.md) al componer o corregir esta familia. No basta un Style con «rushed vocals» sobre letra de consignas cortas. El ritmo rápido debe estar en acompañamiento, letra e interpretación.
 
-Petición actual > decisiones aprobadas de la canción > perfil elegido > preferencias generales. Por defecto, voz principal femenina adulta y con personalidad, sin imponer el mismo registro o técnica a todas las familias. No aplicar una prohibición global de acústicas, coros, gritos o producción densa: algunas fichas los necesitan.
+«Rats in a Paper Crown» remite a 08-R como cruce histórico, pero no anula las preferencias actuales. «Vending Machine Cosmos» o «Bending Machine Cosmos» remite a 03-V; si se pide su faceta folk, usar la nueva dirección 08. No recuperar xilófono protagonista por un nombre histórico. 03-K también queda retirada salvo petición explícita de teclado protagonista.
 
-Separar sonido y tema. El estilo no obliga a hablar siempre de trauma, juguetes, rebeldía o relaciones. Elegir una tensión, deseo, observación o imagen que pueda sostener una canción; no inventar automáticamente una trama surrealista, una moraleja ni una sorpresa por sección. Puede ser alegre, sensual, hostil, absurda o vulnerable si el encargo lo sostiene.
+## Composición y revisión
 
-Cuando se pida inspiración real, investigar unas pocas canciones pertinentes y citar las fuentes fuera de los campos para Suno. Tomar recursos generales, no copiar letras ni melodías. Nunca fingir haber escuchado audio si solo se han leído textos.
+Definir núcleo emocional, papel de guitarra/bajo, pulso, ritmo y contorno del hook. Tema y género son independientes: no imponer trauma, juguetes, moraleja ni una historia absurda. No copiar frases o melodías de referencias. Cuando se investiguen canciones, citar fuera de los campos para Suno y distinguir fuentes textuales de escucha real.
 
-Crear el Style desde cero a partir de los anclajes del perfil. No pegar el mismo párrafo garage/lo-fi/female/talk-sung detrás de todos los nombres de género. Priorizar pulso, función instrumental y comportamiento vocal. Los ejemplos son puntos de partida, no moldes fijos. Tempo y demás parámetros son propuestas musicales, no garantías de control de Suno.
+Escribir un Style nuevo con comportamientos concretos. Mantener instrumentos y fraseo coherentes con la ficha; no reutilizar el mismo paquete fuzz/voz hablada/mallet en todo. Para 08 construir cláusulas encadenadas y ráfagas largas con pequeñas respiraciones, mientras el hook conserva el tempo. Para 06 la irregularidad puede ser vocal sin compás impar. Melodía naïf no exige instrumento de juguete.
 
-Diseñar ritmo y contorno del hook, registro y contraste entre secciones. Ajustar longitud de las frases a la interpretación deseada. Revisar acentos naturales, pronunciación, cantabilidad, cohesión y desgaste de imágenes. Permitir fragmentos y repetición funcional; no imponer verso–estribillo–puente ni rimar por obligación.
+Revisar cantabilidad, acentos, naturalidad, imágenes y coherencia entre letra y Style. Preservar las partes aprobadas. No atribuir control exacto de tempo o melodía a Suno por escribirlo en un prompt.
 
 ## Entrega
 
-Conversar en español. Para este taller, letra y Style en inglés salvo otra indicación. Entregar título, Style, Exclude solo si aporta y letra con etiquetas de sección simples, cada campo limpio para copiar. No introducir bibliografía o comentarios técnicos dentro de la letra. Si se solicita instrumental, omitirla. No inventar límites de caracteres de la interfaz.
+Conversar en español. Por defecto en este taller, título, Style y letra en inglés en campos separados para copiar. Exclude solo si ayuda, etiquetas de sección simples y ninguna bibliografía dentro de la letra. Si pide un campo aislado, entregar solo ese campo. Si pide instrumental, omitir letra.
 
-Después, una ficha breve: ID, tema/perspectiva, pulso, diseño del hook, estructura, voz e instrumento protagonista. Es una propuesta escrita: no afirmar generación de audio ni fidelidad melódica verificada.
+Al entregar una canción completa, añadir una ficha breve: ID/variante, tema, pulso, hook, voz e instrumento principal. No afirmar que se generó o escuchó audio sin hacerlo.
 
 ## Siguiente tanda
 
-En este chat conservar el ID y las correcciones del usuario. Al pedir «otra» o «siguiente tanda», crear una canción, sin entrevista. Revisar el historial: cambiar tema, perspectiva e imágenes; cambiar también ritmo, contorno y organización de frases del hook. Cambiar tonalidad o BPM por sí solos no basta. Variar estructura o arreglo dentro del perfil, conservando sus anclajes audibles. Respetar elementos expresamente protegidos.
+Conservar el ID y todas las correcciones del usuario. Cambiar tema, imágenes, perspectiva, ritmo y contorno del hook; cambiar únicamente tonalidad o BPM no basta. Variar estructura o arreglo dentro del perfil sin electrónica añadida ni mallets recurrentes. Reescribir el Style según la canción. Utilizar el historial accesible; no afirmar memoria de otros chats.
 
-No convertir cada tanda en otra letra para el mismo Style. Reescribir el prompt según la nueva composición. No afirmar memoria de otros chats: si no se tiene su historial, usar solo lo disponible. El usuario puede trasladar las fichas entre chats.
-
-## Revisión de diferenciación
-
-Comparar con el perfil vecino antes de entregar. Deben diferir al menos tres decisiones audibles entre pulso, instrumentación dominante, técnica vocal, lenguaje del hook y dinámica/producción. Es una heurística editorial, no una medida acústica. Confirmar el resultado escuchando generaciones en Suno antes de declarar resuelto el parecido. Si vuelve a converger, modificar primero el pulso y la jerarquía instrumental; luego el fraseo y la voz, en vez de añadir adjetivos.
+Para conocer el origen de una clasificación, consultar [AUDIT.md](AUDIT.md) y [REFERENCES.md](REFERENCES.md). El registro histórico no revoca preferencias actuales. Las comprobaciones de texto no prueban resultado audible.
