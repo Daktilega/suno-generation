@@ -18,10 +18,16 @@ Once perfiles habituales, con base orgánica y mallets opcionales muy ligeros. E
 | 10 | Grunge hiperacelerado | Batería natural acelerada, doble bombo y fuzz |
 | 13 | Retro crooner / punk de los 50 | Verso crooner vintage que desemboca en punk |
 
-## Para empezar o actualizar un chat
+## Uso
 
-> Lee https://github.com/Daktilega/suno-generation/blob/main/SKILL.md y https://github.com/Daktilega/suno-generation/blob/main/STYLES.md. Usa la versión 2.1 del perfil 08 — Folk-punk frenético / thrashgrass, leyendo también https://github.com/Daktilega/suno-generation/blob/main/FOLK-PUNK.md. Crea una canción original para Suno v6: título, Style y letra en inglés separados para copiar. Quiero acompañamiento muy rápido, 240 BPM propuestos, rasgueo acústico y washboard, y frases largas que se atropellen con pequeñas respiraciones. Sin electrónica ni mallets en esta canción. Al pedir siguiente tanda, conserva estas decisiones y cambia tema y diseño melódico. Si no puedes leer los archivos, dímelo.
+Con el catálogo disponible en el chat, basta con escribir:
 
-Para otro estilo, sustituir 08 y su descripción por el ID elegido. Los IDs 01–09 mantienen continuidad; 10 y 13 amplían el menú. 11, 12 y 14 quedan como excepciones históricas, no opciones habituales. Un chat que ya leyó instrucciones anteriores necesita leer esta revisión para aplicarla; el enlace no instala ni actualiza automáticamente sus instrucciones.
+> Usa la opción 8.
 
-La documentación no genera audio. La prueba anterior de folk no satisfizo al usuario y esta corrección aún debe contrastarse escuchando una nueva generación.
+Se aplican automáticamente las instrucciones actuales de folk-punk: velocidad, fraseo, instrumentos y preferencias. No hace falta indicar versión ni repetir la ficha. Para cambiar de estilo, usa el número de otra opción; para continuar, «siguiente tanda».
+
+Si el chat aún no conoce el catálogo, facilítale una vez [las instrucciones](https://github.com/Daktilega/suno-generation/blob/main/SKILL.md). A partir de ahí, el asistente consulta la ficha vigente cuando dispone de acceso web. Si trabaja con archivos adjuntos sin acceso, utiliza esa copia sin fingir que está actualizada.
+
+Los números se conservan: opciones 1–10 y 13. Las antiguas 11, 12 y 14 quedan como excepciones históricas fuera del menú habitual.
+
+La documentación no genera audio. La corrección de folk aún debe contrastarse escuchando una nueva generación.
