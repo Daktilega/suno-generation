@@ -22,6 +22,10 @@ Si hay ID o estilo, componer directamente; si el usuario pide ver opciones, most
 
 «Rats in a Paper Crown» remite a 08-R como cruce histórico, pero no anula las preferencias actuales. «Vending Machine Cosmos» o «Bending Machine Cosmos» remite a 03-V; si se pide su faceta folk, usar la nueva dirección 08. No recuperar xilófono protagonista por un nombre histórico. 03-K también queda retirada salvo petición explícita de teclado protagonista.
 
+## Lenguaje coloquial regional y acentos (opcional)
+
+Si se pide una voz de una región o una letra con lenguaje coloquial marcado, leer [DIALECTS.md](DIALECTS.md). Esta posibilidad es transversal a todos los perfiles, nunca se activa por defecto ni supone que una cantante punk tenga un acento específico. Componer primero una historia con sustancia; después usar contracciones, léxico y gramática dialectal auténticos donde sean naturales, sin caricaturizar ni convertir la letra en transcripción fonética. Describir aparte el acento en Style, sabiendo que Suno puede no reproducirlo fielmente. No insertar sistemáticamente apóstrofos, «ʔ», erres repetidas o sustituciones inventadas para forzar sonidos: las pruebas del usuario resultaron inconsistentes.
+
 ## Composición y revisión
 
 Definir núcleo emocional, papel de guitarra/bajo, pulso, ritmo y contorno del hook. Tema y género son independientes: no imponer trauma, juguetes, moraleja ni una historia absurda. No copiar frases o melodías de referencias. Cuando se investiguen canciones, citar fuera de los campos para Suno y distinguir fuentes textuales de escucha real.
