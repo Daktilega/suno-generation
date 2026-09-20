@@ -10,6 +10,10 @@ Versión 2.1 · 13 de septiembre de 2026. Once perfiles habituales: IDs 01–10 
 
 Estas preferencias prevalecen sobre descripciones del corpus y variantes anteriores, salvo petición actual explícita de cambiarlas. No son prohibiciones de guitarra eléctrica, distorsión, grabación digital ni de cualquier experimento futuro.
 
+## Opción transversal: habla regional auténtica
+
+Cuando el usuario pida inglés muy coloquial o un acento regional concreto, aplicar [DIALECTS.md](DIALECTS.md) sobre el perfil elegido, sin crear otro ID ni modificar por defecto los once estilos. Escribir una letra narrativa con contracciones y giros genuinos del dialecto solicitado (el equivalente funcional de «pescao» en español), no palabras deformadas artificialmente para forzar pronunciaciones. Separar variedad de habla escrita y acento de la interpretación, y no prometer que Suno reproducirá los rasgos fonéticos con exactitud.
+
 ## Elegir un perfil
 
 Elegir uno y, si ayuda, una variante. Al pedir otra canción, conservar sus rasgos principales y las preferencias anteriores. Los híbridos son válidos, pero no justifican recuperar electrónica o mallets protagonistas automáticamente. Los tempos son propuestas o indicaciones históricas, no mediciones de audio.
