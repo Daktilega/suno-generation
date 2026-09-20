@@ -18,6 +18,10 @@ Once perfiles habituales, con base orgánica y mallets opcionales muy ligeros. E
 | 10 | Grunge hiperacelerado | Batería natural acelerada, doble bombo y fuzz |
 | 13 | Retro crooner / punk de los 50 | Verso crooner vintage que desemboca en punk |
 
+## Opción adicional: inglés coloquial regional
+
+Cualquier perfil puede combinarse, cuando se pida, con una letra de habla coloquial auténtica (por ejemplo, East London/Cockney, Liverpool/Scouse u otra variedad), sin inventar grafías fonéticas ni modificar la voz predeterminada. [Guía y ejemplos](DIALECTS.md). El dialecto escrito no garantiza una pronunciación concreta en Suno.
+
 ## Uso
 
 Con el catálogo disponible en el chat, basta con escribir:
