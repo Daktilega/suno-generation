@@ -1,6 +1,6 @@
 # Suno Generation · My AI Songs
 
-Versión 2.1. [Catálogo](STYLES.md) · [Instrucciones](SKILL.md) · [Análisis folk / Days N’ Daze](FOLK-PUNK.md) · [Auditoría](AUDIT.md).
+Versión 2.1. [Catálogo](STYLES.md) · [Instrucciones](SKILL.md) · [Eleven Music](ELEVEN-MUSIC.md) · [Análisis folk / Days N’ Daze](FOLK-PUNK.md) · [Auditoría](AUDIT.md).
 
 Once perfiles habituales, con base orgánica y mallets opcionales muy ligeros. El folk 08 se centra en rasgueo acústico frenético, washboard y frases melódicas encadenadas a 240 BPM propuestos. Electrónica fuera de la selección habitual; xilófono y teclados de juguete sin protagonismo por defecto.
 
